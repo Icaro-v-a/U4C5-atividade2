@@ -40,4 +40,4 @@ Nesta prática, será necessário simular os seguintes componentes:
 3. Compile e execute o projeto utilizando o Pico SDK no VS Code.
 
 ## Link do Vídeo
-O vídeo do experimento com o emprego da Ferramenta Educacional BitDogLab pode ser acessado [aqui](https://www.youtube.com/shorts/16MM5i9jo0k).
+O vídeo do experimento com o emprego da Ferramenta Educacional BitDogLab pode ser acessado [aqui](https://www.youtube.com/watch?v=tkARGFwLtXQ).
