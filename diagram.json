@@ -15,7 +15,7 @@
       "id": "led1",
       "top": 207.6,
       "left": -159.4,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-resistor",
@@ -36,7 +36,7 @@
       "id": "led2",
       "top": 255.6,
       "left": -159.4,
-      "attrs": { "color": "yellow" }
+      "attrs": { "color": "red" }
     },
     {
       "type": "wokwi-led",
@@ -51,6 +51,13 @@
       "top": 349.55,
       "left": -230.4,
       "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 140.6,
+      "left": 9.6,
+      "attrs": { "color": "black" }
     }
   ],
   "connections": [
@@ -64,7 +71,9 @@
     [ "r3:1", "r2:1", "black", [ "v0", "h-9.6", "v-48" ] ],
     [ "led3:A", "pico:GP13", "red", [ "h96", "v-67.24" ] ],
     [ "led2:A", "pico:GP12", "red", [ "h86.4", "v-19.24" ] ],
-    [ "led1:A", "pico:GP11", "red", [ "v9.6", "h86.4", "v9.6" ] ]
+    [ "led1:A", "pico:GP11", "red", [ "v9.6", "h86.4", "v9.6" ] ],
+    [ "pico:GND.1", "btn1:1.r", "black", [ "h0" ] ],
+    [ "pico:GP5", "btn1:2.r", "green", [ "h0" ] ]
   ],
   "serialMonitor": { "display": "terminal", "newline": "lf" },
   "dependencies": {}
